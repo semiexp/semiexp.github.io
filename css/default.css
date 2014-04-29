@@ -126,6 +126,12 @@ td{
     margin-left: 20px;
 }
 
+pre {
+    font-size: 14px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
 #content {
     width: 75%;
     float: right;
