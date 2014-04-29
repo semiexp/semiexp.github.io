@@ -1,16 +1,10 @@
-{% assign dep = {{{{page.url | split:"/"}} | size }} %}
-{% assign dep = {{dep | minus:2 }} %}
-{% assign relative = '' %}
-{% for i in (1..dep) %}
-	{% assign relative = {{relative | append:'../'}}%}
-{% endfor %}
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
 <html lang="ja">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{relative}}css/default.css" type="text/css">
+{% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
 </head>
 <body>
     <div id="wrapper">
