@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+	background-color: #EEEEEE;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;	
+	font-family: Consolas, Verdana, Roboto, 'Droid Sans', 'ÉÅÉCÉäÉI', Meiryo, 'ÇlÇr ÇoÉSÉVÉbÉN', 'ÉqÉâÉMÉmäpÉS Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+}
+
+h1 {
+/*	background-color: orange; */
+    border-left: 10px solid green;
+    border-bottom: 2px solid green;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+h2 {
+    background-color: #eeeeee;
+    border-left: 10px solid blue;
+    border-bottom: 2px solid blue;
+    padding-left: 5px;
+}
+
+p {
+	text-indent: 10px;
+}
+
+li {
+	padding: 2px;
+}
+
+a:link {
+	color : #3c3c7c;
+	background: transparent;
+}
+a:visited {
+	color : #3c3c3c;
+	background: transparent;
+}
+a:hover {
+	color :#3c3c37;
+	background-color : #dddddd;
+}
+a:active {
+	color : #3c3c7c;
+	background : transparent;
+}
+
+table {
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	border-collapse: collapse;
+}
+
+table.placer {
+	border: none;
+}
+
+table.placer td{
+	border: none;
+}
+
+tr.thead{
+	border-color: black;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+}
+
+td{
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+.locate {
+	font-size: 15px;
+	background-color: #EEEEEE;
+	border-top: black 2px solid;
+	border-bottom: black 2px solid;
+}
+
+.locate a{
+	text-decoration:none;
+}
+
+#wrapper {
+    width: 900px;
+    text-align: left;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+#title {
+    font-size: 36px;
+    border-bottom: 2px solid black;
+}
+
+#sidebar {
+    width: 24%;
+    float: left;
+}
+
+.sidemenu {
+    border: 1px solid black;
+}
+
+.sidemenu_head {
+    background-color: #10103b;
+    color: #eeeeff;
+    width: 100%;
+    margin-bottom: 2px;
+    font-size: 18px;
+}
+
+.sidemenu_group {
+    margin-left: 20px;
+}
+
+#content {
+    width: 75%;
+    float: right;
+}
