@@ -13,9 +13,9 @@ group: home
 </ul>
 
 ## Contents
-- Algorithms
+- [Blog](blog/index.html)
 - [Documents & Slides](docs/index.html)
-- Downloads
+- [Downloads](downloads/index.html)
 
 ## About
 - Twitter: [@semiexp](https://twitter.com/semiexp)

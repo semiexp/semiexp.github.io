@@ -12,7 +12,7 @@ title: Blog - Categories
 <ul>
 {% assign ctid = ctg[0] %}
 {% for post in site.categories[ctid] %}
-<a href="{{relative}}{{ post.url | replace_first:'/',''}}">{{ post.date | date:'%Y-%m-%d'}} : {{ post.title }}</a>
+<li> <a href="{{relative}}{{ post.url | replace_first:'/',''}}">{{ post.date | date:'%Y-%m-%d'}} : {{ post.title }}</a> </li>
 {% endfor %}
 </ul>
   </li>
