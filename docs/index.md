@@ -12,5 +12,5 @@ Some documents and slides will be provided.
 - [マークシート](marksheet.pdf)
 
 ## List of slides
-
+- [2015/03/23 SAT ソルバー入門 (JOI 春合宿講義)](introduction_sat.pdf)
 - [同期 (Synchronization) 解説 (JOI 2013 Open)](synchronization.pdf)
