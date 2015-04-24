@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+{% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Slitherlink Player</title>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/player.js"></script>
+    <link rel="stylesheet" href="{{relative}}css/default.css" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="title">semiexp's labo</div>
+        </div>
+
+        <div id="sidebar">
+            <div class="sidemenu">
+                <div class="sidemenu_head">Contents </div>
+{%if page.group == 'home' %}
+Home
+{%else%}
+<a href="{{relative}}index.html">Home</a>
+{%endif%}
+                <div class="sidemenu_group">
+{%for node in site.pages%}
+{%if node.group == 'idx' %}
+{%if node.title == page.title %}
+{{node.title}} <br />
+{%else%}
+<a href="{{relative}}{{node.url | replace_first:'/',''}}"> {{node.title}} </a> </br>
+{%endif%}
+{%endif%}
+{%endfor%}
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <h1> {{ page.title }} </h1>
+            <input type="button" value="Clear" onclick="Init()" /> <br />
+            <canvas id="player" width="0" height="0"></canvas>
+            <param name="problem" value="{{page.problem}}" />
+        </div>
+    </div>
+
+</body>
+</html>
