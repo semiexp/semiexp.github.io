@@ -10,13 +10,21 @@ The generator has been highly improved, compared to the previous one (in 2011).
 Now it can produce a problem (10x10) of any (possible) given placement of hints in approximately 0.1[sec].
 
 ## List of problems
-- 10 * 10
-  - [001](001.html)
-  - [002](002.html)
-  - [003](003.html)
-  - [004](004.html)
-  - [005](005.html)
-  - [006](006.html)
-- 15 * 25
-  - [007](007.html)
+{% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
+{% assign problem_pages = (site.pages | where: "layout", "slitherlink") %}
+{% assign sorted_problems = (problem_pages | sort: "title") %}
+<ul>
+<li>10 * 10<ul>
+{% assign prob_of_size = (sorted_problems | where: "size", "10x10") %}
+{% for page in prob_of_size %}
+<li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
+{% endfor %}
+</ul>
+<li>15 * 25<ul>
+{% assign prob_of_size = (sorted_problems | where: "size", "15x25") %}
+{% for page in prob_of_size %}
+<li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
+{% endfor %}
+</ul>
+</ul>
 
