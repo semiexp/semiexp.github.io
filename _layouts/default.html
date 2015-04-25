@@ -1,7 +1,6 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
 <html lang="ja">
-<head>
-{% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
+<head>{% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{relative}}css/default.css" type="text/css">
@@ -15,21 +14,10 @@
         <div id="sidebar">
             <div class="sidemenu">
                 <div class="sidemenu_head">Contents </div>
-{%if page.group == 'home' %}
-Home
-{%else%}
-<a href="{{relative}}index.html">Home</a>
-{%endif%}
+                {%if page.group == 'home' %}Home{%else%}<a href="{{relative}}index.html">Home</a>{%endif%}
                 <div class="sidemenu_group">
-{%for node in site.pages%}
-{%if node.group == 'idx' %}
-{%if node.title == page.title %}
-{{node.title}} <br />
-{%else%}
-<a href="{{relative}}{{node.url | replace_first:'/',''}}"> {{node.title}} </a> </br>
-{%endif%}
-{%endif%}
-{%endfor%}
+{%for node in site.pages%}{%if node.group == 'idx' %}{%if node.title == page.title %}{{node.title}} <br />{%else%}<a href="{{relative}}{{node.url | replace_first:'/',''}}"> {{node.title}} </a> </br>{%endif%}
+{%endif%}{%endfor%}
                 </div>
             </div>
         </div>
