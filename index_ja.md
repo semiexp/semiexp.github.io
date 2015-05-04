@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: default_ja
 title: semiexp's labo
 group: home
-ja_version: index_ja.html
+en_version: index.html
 ---
-## Recent posts
+## 最近の投稿
 <ul>
 {% for post in site.posts limit:5 %}
   <li>
@@ -14,9 +14,9 @@ ja_version: index_ja.html
 </ul>
 
 ## Contents
-- [Blog](blog/index.html)
-- [Documents & Slides](docs/index.html)
-- [Downloads](downloads/index.html)
+- [ブログ](blog/index.html)
+- [文書およびスライド](docs/index.html)
+- [ダウンロード](downloads/index.html)
 
 ## About
 - Twitter: [@semiexp](https://twitter.com/semiexp)

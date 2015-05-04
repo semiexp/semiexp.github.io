@@ -1,10 +1,11 @@
 ---
-layout: default
-title: Blog
-group: idx
-ja_version: index_ja.html
+layout: default_ja
+title: ブログ
+title_en: Blog
+group: idx_ja
+en_version: index.html
 ---
-## Recent posts
+## 最近の投稿
 {% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
 <ul>
 {% for post in site.posts limit:5 %}
@@ -14,7 +15,7 @@ ja_version: index_ja.html
 {% endfor %}
 </ul>
 
-## All posts
+## すべての投稿
 
-- [Archive](archive.html)
-- [Categories](categories.html)
+- [アーカイブ](archive_ja.html)
+- [カテゴリ別](categories_ja.html)

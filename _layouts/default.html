@@ -16,10 +16,13 @@
                 <div class="sidemenu_head">Contents </div>
                 {%if page.group == 'home' %}Home{%else%}<a href="{{relative}}index.html">Home</a>{%endif%}
                 <div class="sidemenu_group">
-{%for node in site.pages%}{%if node.group == 'idx' %}{%if node.title == page.title %}{{node.title}} <br />{%else%}<a href="{{relative}}{{node.url | replace_first:'/',''}}"> {{node.title}} </a> </br>{%endif%}
-{%endif%}{%endfor%}
+{% assign idx_pages = (site.pages | where: "group", "idx") %} {% assign idx_pages = (idx_pages | sort: "title") %}
+{%for node in idx_pages%}{%if node.title == page.title %}{{node.title}} <br />{%else%}<a href="{{relative}}{{node.url | replace_first:'/',''}}"> {{node.title}} </a> <br />{%endif%}
+{%endfor%}
                 </div>
             </div>
+            <br />
+            Lang: [en / {%if page.ja_version != null %}<a href="{{ page.ja_version }}">ja</a>{%else%}ja{%endif%}]
         </div>
 
         <div id="content">

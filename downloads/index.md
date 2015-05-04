@@ -2,6 +2,7 @@
 layout: default
 title: Downloads
 group: idx
+ja_version: index_ja.html
 ---
 
 ## Nurikabe Solver v0.2

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog - Archive
-
+ja_version: archive_ja.html
 ---
 {% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
 ## Archive
