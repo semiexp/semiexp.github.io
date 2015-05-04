@@ -17,6 +17,7 @@ ja_version: index_ja.html
 - [Blog](blog/index.html)
 - [Documents & Slides](docs/index.html)
 - [Downloads](downloads/index.html)
+- [Slitherlink Problems](slitherlink/index.html)
 
 ## About
 - Twitter: [@semiexp](https://twitter.com/semiexp)
