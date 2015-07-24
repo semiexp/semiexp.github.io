@@ -13,5 +13,6 @@ Some documents and slides will be provided.
 - [Marksheet](marksheet.pdf)
 
 ## List of slides
+- (ja)[canvas の使い方](canvas.pdf)
 - (ja)[2015/03/23 SAT ソルバー入門 (JOI 春合宿講義)](introduction_sat.pdf)
 - (ja)[同期 (Synchronization) 解説 (JOI 2013 Open)](synchronization.pdf)

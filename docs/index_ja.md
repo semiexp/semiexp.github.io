@@ -14,5 +14,6 @@ en_version: index.html
 - [マークシート](marksheet.pdf)
 
 ## スライドの一覧
+- [canvas の使い方](canvas.pdf)
 - [2015/03/23 SAT ソルバー入門 (JOI 春合宿講義)](introduction_sat.pdf)
 - [同期 (Synchronization) 解説 (JOI 2013 Open)](synchronization.pdf)
