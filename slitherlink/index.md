@@ -21,11 +21,5 @@ Now it can produce a problem (10x10) of any (possible) given placement of hints 
 <li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
 {% endfor %}
 </ul>
-<li>15 * 25<ul>
-{% assign prob_of_size = (sorted_problems | where: "size", "15x25") %}
-{% for page in prob_of_size %}
-<li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
-{% endfor %}
-</ul>
 </ul>
 

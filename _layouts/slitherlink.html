@@ -4,7 +4,13 @@
 {% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Slitherlink Player</title>
-    <script type="text/javascript" src="{{relative}}js/slitherlink/player.js"></script>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/unionfind.js"></script>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/applet.js"></script>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/controller.js"></script>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/sl_controller.js"></script>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/board.js"></script>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/field.js"></script>
+    <script type="text/javascript" src="{{relative}}js/slitherlink/application.js"></script>
     <link rel="stylesheet" href="{{relative}}css/default.css" type="text/css">
 </head>
 <body>
@@ -38,7 +44,7 @@ Home
         </div>
 
         <div id="content">
-            <h1> Slitherlink #{{ page.title }} </h1>
+            <h1> Slitherlink ({{ page.size }}) Set #{{ page.title }} </h1>
             <input type="button" value="Clear" onclick="Init()" /> <br />
             <canvas id="player" width="0" height="0"></canvas>
             <param name="problem" value="{{page.problem}}" />
