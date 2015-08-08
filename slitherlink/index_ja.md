@@ -22,8 +22,8 @@ en_version: index.html
 <li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
 {% endfor %}
 </ul>
-<li>15 * 25<ul>
-{% assign prob_of_size = (sorted_problems | where: "size", "15x25") %}
+<li>14 * 24<ul>
+{% assign prob_of_size = (sorted_problems | where: "size", "14x24") %}
 {% for page in prob_of_size %}
 <li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
 {% endfor %}
