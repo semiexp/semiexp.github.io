@@ -8,24 +8,23 @@ Here you can play some Slitherlink problems.
 
 Problems are made by [Penciloid](https://github.com/semiexp/penciloid) Slitherlink Generator.
 The generator has been highly improved, compared to the previous one (in 2011).
-Now it can produce a problem (10x10) of any (possible) given placement of hints in approximately 0.1[sec].
+It produces a problem (10x10) of most (appropriate) placement of clues in approximately between 0.1 and 0.2 seconds.
 
 ## List of problems
 {% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
 {% assign problem_pages = (site.pages | where: "layout", "slitherlink") %}
-{% assign sorted_problems = (problem_pages | sort: "title") %}
+{% assign sorted_problems = (problem_pages | sort: "id") %}
 <ul>
 <li>10 * 10<ul>
 {% assign prob_of_size = (sorted_problems | where: "size", "10x10") %}
 {% for page in prob_of_size %}
-<li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
+<li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}}</a></li>
 {% endfor %}
 </ul>
 <li>14 * 24<ul>
 {% assign prob_of_size = (sorted_problems | where: "size", "14x24") %}
 {% for page in prob_of_size %}
-<li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}} {{page.id}}</a></li>
+<li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}}</a></li>
 {% endfor %}
 </ul>
 </ul>
-
