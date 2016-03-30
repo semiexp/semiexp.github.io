@@ -18,7 +18,6 @@ It produces a problem (10x10) of most (appropriate) placement of clues in approx
 <li>10 * 10<ul>
 {% assign prob_of_size = (sorted_problems | where: "size", "10x10") %}
 {% for page in prob_of_size %}
-{{page.path}}
 <li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}}</a></li>
 {% endfor %}
 </ul>
