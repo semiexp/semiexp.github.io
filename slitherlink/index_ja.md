@@ -12,7 +12,7 @@ en_version: index.html
 現在では 10 × 10 の問題なら多くの (適切な)ヒント配置に対して 0.1～0.2 秒程度で生成できる性能があります．
 
 ## 問題一覧
-{% assign dep = {{{{page.url | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
+{% assign dep = {{{{{{page.url | append:"a"}} | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
 {% assign problem_pages = (site.pages | where: "layout", "slitherlink") %}
 {% assign sorted_problems = (problem_pages | sort: "id") %}
 <ul>
