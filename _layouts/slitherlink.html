@@ -16,31 +16,16 @@
 <body>
     <div id="wrapper">
         <div id="header">
-            <div id="title">semiexp's labo</div>
-        </div>
-
-        <div id="sidebar">
-            <div class="sidemenu">
-                <div class="sidemenu_head">Contents </div>
-{%if page.group == 'home' %}
-Home
-{%else%}
-<a href="{{relative}}index.html">Home</a>
-{%endif%}
-                <div class="sidemenu_group">
-{%for node in site.pages%}
-{%if node.group == 'idx' %}
-{%if node.title == page.title %}
-{{node.title}} <br />
-{%else%}
-<a href="{{relative}}{{node.url | replace_first:'/',''}}"> {{node.title}} </a> </br>
-{%endif%}
-{%endif%}
-{%endfor%}
-                </div>
-            </div>
-            <br />
-            Lang: [en / {%if page.ja_version != null %}<a href="{{ page.ja_version }}">ja</a>{%else%}ja{%endif%}]
+            <div id="title"><a href="{{relative}}index.html">semiexp's labo</a></div>
+			<div id="topmenu">
+				<div id="menu_entry"><a href="{{relative}}blog/index.html">Blog</a></div>
+				<div id="menu_entry"><a href="{{relative}}docs/index.html">Documents</a></div>
+				<div id="menu_entry"><a href="{{relative}}slitherlink/index.html">Slitherlink</a></div>
+				<div id="menu_entry"><a href="{{relative}}downloads/index.html">Downloads</a></div>
+				<div id="menu_lang">
+					[en/{%if page.ja_version != null %}<a href="{{ page.ja_version }}">ja</a>{%else%}ja{%endif%}]
+				</div>
+			</div>
         </div>
 
         <div id="content">

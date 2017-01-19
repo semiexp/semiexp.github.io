@@ -5,7 +5,7 @@ body {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 10px;	
-	font-family: Consolas, Verdana, Roboto, 'Droid Sans', 'ƒƒCƒŠƒI', Meiryo, '‚l‚r ‚oƒSƒVƒbƒN', 'ƒqƒ‰ƒMƒmŠpƒS Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+	font-family: Verdana, Roboto, 'Droid Sans', 'ƒƒCƒŠƒI', Meiryo, '‚l‚r ‚oƒSƒVƒbƒN', 'ƒqƒ‰ƒMƒmŠpƒS Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
 }
 
 h1 {
@@ -14,6 +14,7 @@ h1 {
     border-bottom: 2px solid green;
     padding-left: 5px;
     margin-top: 5px;
+    font-weight: normal;
 }
 
 h2 {
@@ -21,12 +22,14 @@ h2 {
     border-left: 10px solid blue;
     border-bottom: 2px solid blue;
     padding-left: 5px;
+    font-weight: normal;
 }
 
 h3 {
     background-color: #eeeeee;
     border-bottom: 2px solid black;
     padding-left: 5px;
+    font-weight: normal;
 }
 
 p {
@@ -38,19 +41,19 @@ li {
 }
 
 a:link {
-	color : #3c3c7c;
+	color : #3c3ccc;
 	background: transparent;
 }
 a:visited {
-	color : #3c3c3c;
+	color : #3c3c9c;
 	background: transparent;
 }
 a:hover {
-	color :#3c3c37;
+	color :#3c3c9c;
 	background-color : #dddddd;
 }
 a:active {
-	color : #3c3c7c;
+	color : #3c3ccc;
 	background : transparent;
 }
 
@@ -111,6 +114,50 @@ td{
     border-bottom: 2px solid black;
 }
 
+#title a {
+	color : black;
+    text-decoration: none;
+}
+
+#title a:link {
+	background: transparent;
+}
+#title a:visited {
+	background: transparent;
+}
+#title a:hover {
+	background-color : #dddddd;
+}
+#title a:active {
+	background : transparent;
+}
+
+#topmenu {
+    font-size: 24px;
+    overflow: auto;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+#menu_entry {
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    text-align: center;
+}
+
+#menu_entry a {
+    text-decoration: none;
+}
+
+#menu_lang {
+    float: right;
+}
+
+#menu_lang a {
+    text-decoration: none;
+}
+
 #sidebar {
     width: 24%;
     float: left;
@@ -139,6 +186,6 @@ pre {
 }
 
 #content {
-    width: 75%;
-    float: right;
+    width: 100%;
+    float: left;
 }
