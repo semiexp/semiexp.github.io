@@ -1,3 +1,13 @@
 markdown: kramdown
-permalink: /blog/:year-:month-:day/:title.html
 timezone: Japan
+defaults:
+    -
+        scope:
+            type: pages
+        values:
+            permalink: /:path/:basename:output_ext
+    -
+        scope:
+            type: posts
+        values:
+            permalink: /blog/:year-:month-:day/:title.html
