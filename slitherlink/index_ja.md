@@ -21,11 +21,11 @@ en_version: index.html
 {% for page in prob_of_size %}
 <li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}}</a></li>
 {% endfor %}
-</ul>
+</ul></li>
 <li>14 * 24<ul>
 {% assign prob_of_size = (sorted_problems | where: "size", "14x24") %}
 {% for page in prob_of_size %}
 <li><a href="{{relative}}{{ page.url | replace_first:'/',''}}">{{page.title}}</a></li>
 {% endfor %}
-</ul>
+</ul></li>
 </ul>
