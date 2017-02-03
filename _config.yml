@@ -10,4 +10,4 @@ defaults:
         scope:
             type: posts
         values:
-            permalink: /blog/:year-:month-:day/:title.html
+            permalink: /blog/:year-:month-:day-:title.html
