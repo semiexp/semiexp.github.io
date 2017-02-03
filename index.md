@@ -1,6 +1,6 @@
 ---
 layout: default
-title: semiexp's labo
+title: semiexp.net
 group: home
 ja_version: index_ja.html
 ---
