@@ -16,7 +16,6 @@ en_version: index.html
 ## Contents
 - [ブログ](blog/index_ja.html)
 - [文書およびスライド](docs/index_ja.html)
-- [ダウンロード](downloads/index_ja.html)
 - [スリザーリンク問題集](slitherlink/index_ja.html)
 
 ## About
