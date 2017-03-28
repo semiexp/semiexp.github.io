@@ -16,7 +16,7 @@ ja_version: index_ja.html
 ## Contents
 - [Blog](blog/index.html)
 - [Documents & Slides](docs/index.html)
-- [Slitherlink Problems](slitherlink/index.html)
+- [Games & Puzzles](games/index.html)
 
 ## About
 - Twitter: [@semiexp](https://twitter.com/semiexp)
