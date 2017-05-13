@@ -203,6 +203,9 @@ pre {
     font-size: 14px;
     border: 1px solid gray;
     background-color: white;
+    -o-tab-size: 2;
+    -moz-tab-size: 2;
+    tab-size: 2;
 }
 
 #content {
