@@ -3,7 +3,7 @@ layout: post
 title: Jekyll で相対パスを使う
 group: blog
 date: 2014-04-29
-categories: [computer]
+categories: [Programming]
 ---
 普通の使い方では Jekyll で相対パスが必要になることはあまりないのかもしれないが，
 リンクが全部 /hoge/... みたいな形になっていると「ローカルではブラウザでそのままだと見られない」「/ 直下にページを置けないレンタルサーバーで使えない」みたいな問題が起きる．

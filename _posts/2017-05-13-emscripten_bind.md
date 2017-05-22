@@ -3,7 +3,7 @@ layout: post
 title: emscripten の bind で JavaScript オブジェクトを返す方法
 group: blog
 date: 2017-05-13
-categories: [programming]
+categories: [Programming]
 ---
 
 ## 概要

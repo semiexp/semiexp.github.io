@@ -3,7 +3,7 @@ layout: post
 title: 異なる意味の値同士の演算の防止
 group: blog
 date: 2016-02-01
-categories: [programming]
+categories: [Programming]
 ---
 
 C++ の typedef は，単に既存の型の別名を定義するだけで，新たな型を定義したりはしない．
