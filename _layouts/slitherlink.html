@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-{% assign dep = {{{{{{page.url | append:"a"}} | split:"/"}} | size }} %}{% assign dep = {{dep | minus:2 }} %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = {{relative | append:'../'}}%}{% endfor %}
+<head>{% assign dep = page.url | append:"a" | split:"/" | size %}{% assign dep = dep | minus:2 %}{% assign relative = '' %}{% for i in (1..dep) %}{% assign relative = relative | append:'../' %}{% endfor %}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Slitherlink Player</title>
     <script type="text/javascript" src="{{relative}}js/slitherlink/unionfind.js"></script>
