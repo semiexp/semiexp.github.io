@@ -36,6 +36,10 @@ title: Infinite Numberlink
     function generateProblem() {
         const height = parseInt(document.getElementById("height").value);
         const width = parseInt(document.getElementById("width").value);
+        if (!(10 <= height && height <= 15 && 10 <= width && width <= 15)) {
+            alert("Invalid size of problem: " + height + "x" + width);
+            return;
+        }
         const noAdjacentClue = document.getElementById("no_adjacent_clue").checked;
         const noClueCircumference = document.getElementById("no_clue_circumference").checked;
         const clueNearCorners = document.getElementById("clue_near_corners").checked;
@@ -55,8 +59,10 @@ title: Infinite Numberlink
 
 - Push `+` button to generate a new problem. Note that current problem will be discarded on generating a new problem.
 - Generating a problem may take (tens of) seconds depending on the performance of your computer.
+- Supported size of problems: 10x10 - 15x15
 
 ## 使い方
 
 - `+` ボタンを押すと問題が生成されます．その際現在の問題は消去されるので注意してください．
 - コンピュータの性能によっては，問題の生成に数十秒程度かかることもあります．
+- 対応盤面サイズ：10x10 - 15x15
