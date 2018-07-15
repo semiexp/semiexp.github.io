@@ -6,7 +6,7 @@ body {
 	margin-left: 20px;
 	margin-right: 20px;
 	padding: 10px;	
-	font-family: Verdana, Roboto, 'Droid Sans', 'ƒƒCƒŠƒI', Meiryo, '‚l‚r ‚oƒSƒVƒbƒN', 'ƒqƒ‰ƒMƒmŠpƒS Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+	font-family: Verdana, Roboto, 'Droid Sans', 'ãƒ¡ã‚¤ãƒªã‚ª', Meiryo, 'ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯', 'ãƒ’ãƒ©ã‚®ãƒè§’ã‚´ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
 }
 
 h1 {
@@ -201,6 +201,7 @@ td{
 
 pre {
     font-size: 14px;
+    font-family: Courier, monospace;
     border: 1px solid gray;
     background-color: white;
     -o-tab-size: 2;
