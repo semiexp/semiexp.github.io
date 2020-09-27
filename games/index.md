@@ -6,6 +6,10 @@ ja_version: index_ja.html
 ---
 Here you can play some games and puzzles.
 
+## [cspuz-solver](cspuz-solver/index.html)
+
+A pencil puzzle solver.
+
 ## [Infinite Numberlink](infinite_numberlink/index.html)
 
 Numberlink player, in which you can play with virtually infinitely many problems!

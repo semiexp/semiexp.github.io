@@ -6,6 +6,10 @@ en_version: index.html
 ---
 ここでは，ゲームやパズルで遊ぶことができます．
 
+## [cspuz-solver](cspuz-solver/index.html)
+
+多くの問題を高速に解くことができるペンシルパズルソルバーです。
+
 ## [スリザーリンク](../slitherlink/index_ja.html)
 
 大量のスリザーリンクの自動生成問題で遊べます．
