@@ -6,6 +6,10 @@ ja_version: index_ja.html
 ---
 Here you can play some games and puzzles.
 
+## [pzprRT](../pzprrt/index.html)
+
+A pencil puzzle editor based on [pzprjs](https://github.com/robx/pzprjs/), integrated with real-time solver feature.
+
 ## [cspuz-solver](cspuz-solver/index.html)
 
 A pencil puzzle solver.

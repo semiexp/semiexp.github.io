@@ -6,6 +6,10 @@ en_version: index.html
 ---
 ここでは，ゲームやパズルで遊ぶことができます．
 
+## [pzprRT](../pzprrt/index.html)
+
+[pzprjs](https://github.com/robx/pzprjs/) を基にしたパズルエディタで、リアルタイムに解答を表示する機能を備えています。
+
 ## [cspuz-solver](cspuz-solver/index.html)
 
 多くの問題を高速に解くことができるペンシルパズルソルバーです。
