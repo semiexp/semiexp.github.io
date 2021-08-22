@@ -9,6 +9,11 @@ pzprRT は、[pzprjs](https://github.com/robx/pzprjs/) を基に開発された�
 - [ヤジリン](p.html?yajilin)
 - [スリザーリンク](p.html?slither)
 - [ましゅ](p.html?mashu)
+- [へやわけ](p.html?heyawake)
+- [Tapa](p.html?tapa)
+- [シンプルループ](p.html?simpleloop)
+- [Aqre](p.html?aqre)
+- [ぬりみさき](p.html?nurimisaki)
 
 内部で使用しているソルバーは [cspuz-solver](../games/cspuz-solver/index.html) とほとんど同様のものです。
 
@@ -18,6 +23,7 @@ pzprRT は、[pzprjs](https://github.com/robx/pzprjs/) を基に開発された�
 
 一方、cspuz-solver とは異なり、バックグラウンドでの解答などには対応していません。
 そのため、大きい問題などではレスポンスが悪くなる可能性もありますが、ご了承ください。
+また、特に「へやわけ」「Aqre」では、大きなヒント数字を含む部屋が存在すると解答に極めて長い時間を要する場合があるので、注意してください。
 
 ## 免責事項
 
