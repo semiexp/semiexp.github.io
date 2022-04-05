@@ -10,7 +10,7 @@ Here you can play some games and puzzles.
 
 A pencil puzzle editor based on [pzprjs](https://github.com/robx/pzprjs/), integrated with real-time solver feature.
 
-## [cspuz-solver](cspuz-solver/index.html)
+## [cspuz-solver2](cspuz-solver2/index.html)
 
 A pencil puzzle solver.
 

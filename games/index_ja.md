@@ -10,7 +10,7 @@ en_version: index.html
 
 [pzprjs](https://github.com/robx/pzprjs/) を基にしたパズルエディタで、リアルタイムに解答を表示する機能を備えています。
 
-## [cspuz-solver](cspuz-solver/index.html)
+## [cspuz-solver2](cspuz-solver2/index.html)
 
 多くの問題を高速に解くことができるペンシルパズルソルバーです。
 
