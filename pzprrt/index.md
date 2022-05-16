@@ -14,6 +14,10 @@ pzprRT は、[pzprjs](https://github.com/robx/pzprjs/) を基に開発された�
 - [シンプルループ](p.html?simpleloop)
 - [Aqre](p.html?aqre)
 - [ぬりみさき](p.html?nurimisaki)
+- [ぬりかべ](p.html?nurikabe)
+- [LITS](p.html?lits)
+- [シャカシャカ](p.html?shakashaka)
+- [美術館](p.html?akari)
 
 内部で使用しているソルバーは [cspuz-solver](../games/cspuz-solver/index.html) とほとんど同様のものです。
 
