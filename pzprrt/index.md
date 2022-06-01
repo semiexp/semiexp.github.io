@@ -18,6 +18,10 @@ pzprRT は、[pzprjs](https://github.com/robx/pzprjs/) を基に開発された�
 - [LITS](p.html?lits)
 - [シャカシャカ](p.html?shakashaka)
 - [美術館](p.html?akari)
+- [ヘヤジリン](p.html?yajilin-regions)
+- [Castle Wall](p.html?castle)
+- [島国](p.html?shimaguni)
+- [のりのり](p.html?norinori)
 
 内部で使用しているソルバーは [cspuz-solver](../games/cspuz-solver/index.html) とほとんど同様のものです。
 
