@@ -9,7 +9,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 <link rel="manifest" href="./site.webmanifest">
 <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-<link rel="stylesheet" href="./css/ui.css?4039655c" type="text/css">
+<link rel="stylesheet" href="./css/ui.css?8f82d6d4" type="text/css">
 <script type="text/javascript">
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
@@ -17,8 +17,8 @@ if ('serviceWorker' in navigator) {
   });
 }
 </script>
-<script type="text/javascript" src="./js/pzpr.js?4039655c"></script>
-<script type="text/javascript" src="./js/pzpr-ui.js?4039655c"></script>
+<script type="text/javascript" src="./js/pzpr.js?8f82d6d4"></script>
+<script type="text/javascript" src="./js/pzpr-ui.js?8f82d6d4"></script>
 <title>puzz.link player</title>
 </head>
 
@@ -313,6 +313,13 @@ if ('serviceWorker' in navigator) {
       <span class="config" data-config="run_autosolver">
         <button class="btn" data-button-exec="run_autosolver">__自動解答__Run solver__</button>
       </span>
+      <span class="config" data-config="open_solver">
+          <button class="btn" data-button-exec="open_solver">__ソルバーを開く__Open solver__</button>
+          <form name="num_max_answer" style="display:inline">
+            <span>__解数上限__Number of maximum answers__</span>
+          <input type="number" value="10" size="4" name="nummax">
+        </form>
+      </span>
     </div>
   </div>
   <hr class="separator" id="separator1">
@@ -587,7 +594,7 @@ if ('serviceWorker' in navigator) {
   <div class="popup" id="about">
     <div class="titlebar">__pzprRT について__About__</div>
     <form name="about">
-      <p><a href="https://github.com/semiexp/pzprjs">github.com/semiexp/pzprjs</a> version 4039655c</p>
+      <p><a href="https://github.com/semiexp/pzprjs">github.com/semiexp/pzprjs</a> version 8f82d6d4</p>
       <p>A fork of <a href="https://github.com/robx/pzprjs">github.com/robx/pzprjs</a></p>
       <p>based on <span>__ぱずぷれv3__PUZ-PRE v3__</span> by <span>__は はっぱ/連続発破__happa__</span></p>
       <p><a href="license.txt">License</a></p>
@@ -599,12 +606,22 @@ if ('serviceWorker' in navigator) {
     <div class="titlebar"><!-- Set by AuxEditor.js --></div>
     <form name="auxeditor">
       <div id="auxeditorpanel">
+        <!--
         <div class="config" data-config="auxeditor_inputmode">
           <div><span>__入力モード__Input Mode__</span> | </div>
           <div>
             <div class="child" data-value="auto">__自動__Auto__</div>
             <div class="child" data-value="slide">__平行移動__Slide__</div>
           </div>
+        </div>
+        -->
+        <div>
+          <span class="solver-answer-locator">0/0</span>
+          <button type="button" class="btn" data-button-exec="solver_answer_first">&lt;&lt;</button>
+          <button type="button" class="btn" data-button-exec="solver_answer_prev">&lt;</button>
+          <button type="button" class="btn" data-button-exec="solver_answer_next">&gt;</button>
+          <button type="button" class="btn" data-button-exec="solver_answer_last">&gt;&gt;</button>
+          <button type="button" class="btn" data-button-exec="solver_stop">Stop</button>
         </div>
       </div>
       <div id="divauxeditor"></div>  <!-- Canvas for editor -->
