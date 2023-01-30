@@ -23,6 +23,7 @@ pzprRT は、[pzprjs](https://github.com/robx/pzprjs/) を基に開発された�
 - [島国](p.html?shimaguni)
 - [のりのり](p.html?norinori)
 - [ナンバーリンク](p.html?numlin)
+- [数独](p.html?sudoku)
 
 内部で使用しているソルバーは [cspuz-solver](../games/cspuz-solver/index.html) とほとんど同様のものです。
 ナンバーリンクのみ [puzrs](https://github.com/semiexp/puzrs) を使用しています。
