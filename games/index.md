@@ -14,6 +14,10 @@ A pencil puzzle editor based on [pzprjs](https://github.com/robx/pzprjs/), integ
 
 A pencil puzzle solver.
 
+## [Scrabble Solver](scrabble-solver/index.html)
+
+A Scrabble puzzle solver.
+
 ## [Infinite Numberlink](infinite_numberlink/index.html)
 
 Numberlink player, in which you can play with virtually infinitely many problems!

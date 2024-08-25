@@ -14,6 +14,10 @@ en_version: index.html
 
 多くの問題を高速に解くことができるペンシルパズルソルバーです。
 
+## [Scrabble Solver](scrabble-solver/index.html)
+
+Scrabble というパズルのソルバーです。
+
 ## [スリザーリンク](../slitherlink/index_ja.html)
 
 大量のスリザーリンクの自動生成問題で遊べます．
