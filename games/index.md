@@ -30,3 +30,7 @@ You can play a lot of computer-made Slitherlink problems.
 
 An altered version of the card game [Set](https://en.wikipedia.org/wiki/Set_(game)).
 The rule is similar to original Set, but you need to choose three cards in which all of four features of cards (shape, the number of symbols, color, shading) do NOT satisfy the original Set condition.
+
+## [Logic Pad Solver](logic-pad-solver/index.html)
+
+A solver for [Logic Pad](https://logic-pad.com) based on cspuz.
