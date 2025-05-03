@@ -19,7 +19,16 @@ en_version: index.html
 - [ゲーム・パズル](games/index_ja.html)
 
 ## About
-- Twitter: [@semiexp](https://twitter.com/semiexp)
-- TopCoder: <span style="color:red">semiexp</span>
-- Blog: [Algorithmer's note](http://d.hatena.ne.jp/semiexp/)
-- github: [semiexp](https://github.com/semiexp/)
+
+<div style="display: flex">
+  <img src="{{relative}}img/icon.png" style="height:150px; border-radius: 50%" />
+
+  <div>
+    <ul>
+      <li>Twitter: <a href="https://twitter.com/semiexp">@semiexp</a></li>
+      <li>AtCoder: <a href="https://atcoder.jp/users/semiexp" style="color:#92D050">semiexp</a></li>
+      <li><a href="https://github.com/semiexp/">GitHub</a></li>
+      <li><a href="https://zenn.dev/semiexp">Zenn</a></li>
+    </ul>
+  </div>
+</div>
