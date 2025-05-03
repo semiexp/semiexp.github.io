@@ -1,10 +1,10 @@
 ---
 layout: default_ja
-title: ゲーム・パズル
+title: アプリ・ツール
 group: idx_ja
 en_version: index.html
 ---
-ここでは，ゲームやパズルで遊ぶことができます．
+パズルソルバーなどのアプリを公開しています。
 
 ## [pzprRT](../pzprrt/index.html)
 
@@ -12,7 +12,7 @@ en_version: index.html
 
 ## [cspuz-solver2](cspuz-solver2/index.html)
 
-多くの問題を高速に解くことができるペンシルパズルソルバーです。
+多くの問題を高速に解くことができるペンシルパズルソルバーです。80 種類以上のパズルに対応しています。
 
 ## [Scrabble Solver](scrabble-solver/index.html)
 

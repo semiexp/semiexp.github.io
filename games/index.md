@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Games & Puzzles
+title: Apps
 group: idx
 ja_version: index_ja.html
 ---
-Here you can play some games and puzzles.
+Apps including logic puzzle solvers.
 
 ## [pzprRT](../pzprrt/index.html)
 
@@ -12,7 +12,7 @@ A pencil puzzle editor based on [pzprjs](https://github.com/robx/pzprjs/), integ
 
 ## [cspuz-solver2](cspuz-solver2/index.html)
 
-A pencil puzzle solver.
+A fast logic puzzle solver supporting more than 80 puzzle types.
 
 ## [Scrabble Solver](scrabble-solver/index.html)
 
