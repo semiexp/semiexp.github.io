@@ -14,9 +14,9 @@ en_version: index.html
 </ul>
 
 ## Contents
+- [アプリ・ツール](games/index_ja.html)
 - [ブログ](blog/index_ja.html)
 - [文書およびスライド](docs/index_ja.html)
-- [ゲーム・パズル](games/index_ja.html)
 
 ## About
 

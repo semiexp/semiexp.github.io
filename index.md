@@ -14,9 +14,9 @@ ja_version: index_ja.html
 </ul>
 
 ## Contents
+- [Apps](games/index.html)
 - [Blog](blog/index.html)
 - [Documents & Slides](docs/index.html)
-- [Games & Puzzles](games/index.html)
 
 ## About
 
