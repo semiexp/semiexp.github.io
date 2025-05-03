@@ -6,19 +6,19 @@
     <link rel="stylesheet" href="{{relative}}css/default.css" type="text/css">
 </head>
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="title"><a href="{{relative}}index.html">semiexp.net</a></div>
-			<div id="topmenu">
-				<div id="menu_entry"><a href="{{relative}}blog/index_ja.html">Blog</a></div>
-				<div id="menu_entry"><a href="{{relative}}docs/index_ja.html">Documents</a></div>
-				<div id="menu_entry"><a href="{{relative}}games/index_ja.html">Games</a></div>
-				<div id="menu_lang">
-					[{%if page.en_version != null %}<a href="{{ page.en_version }}">en</a>{%else%}en{%endif%}/ja]
-				</div>
-			</div>
+    <div id="header">
+        <div id="title"><a href="{{relative}}index.html">semiexp.net</a></div>
+        <div id="topmenu">
+            <div id="menu_entry"><a href="{{relative}}blog/index_ja.html">Blog</a></div>
+            <div id="menu_entry"><a href="{{relative}}docs/index_ja.html">Documents</a></div>
+            <div id="menu_entry"><a href="{{relative}}games/index_ja.html">Games</a></div>
         </div>
+        <div id="menu_lang">
+            [{%if page.en_version != null %}<a href="{{ page.en_version }}">en</a>{%else%}en{%endif%}/ja]
+        </div>
+    </div>
 
+    <div id="wrapper">
         <div id="content">
             {%if page.group != "home" %}<h1> {{ page.title }} </h1>{%endif%}
 {{ content }}
