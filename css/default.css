@@ -8,9 +8,8 @@ body {
 }
 
 h1 {
-    border-left: 10px solid #88dd88;
     padding-left: 5px;
-    padding-bottom: 2px;
+    padding-bottom: 5px;
     margin-top: 5px;
     font-weight: normal;
     position: relative;
@@ -23,11 +22,11 @@ h1::after {
     bottom: 0;
     height: 0;
     width: 100%;
-    border-bottom: 2px solid #aaaaaa;
+    border-bottom: 3px solid #aaaaaa;
 }
 
 h2 {
-    border-left: 10px solid #8888dd;
+    border-left: 5px solid #8888ee;
     padding-left: 5px;
     padding-bottom: 2px;
     font-weight: normal;
@@ -117,17 +116,16 @@ td{
 #wrapper {
     max-width: 900px;
     text-align: left;
-    background-color: #EEEEEE;
     margin: 10px auto;
 }
 
 #header {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     width: 100%;
     font-size: 24px;
-    background-color: #f0f0f0;
-    border-bottom: #999999 3px solid;
+    background-color: #f3f5f7;
+    border-bottom: #999999 1px solid;
     display: flex;
 }
 
@@ -216,5 +214,4 @@ pre {
 
 #content {
     width: 100%;
-    float: left;
 }
