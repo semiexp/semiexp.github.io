@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="{{relative}}css/syntax.css" type="text/css">
 </head>
 <body>
-    <div id="wrapper">
-        <div id="header">
-            <div id="title"><a href="{{relative}}index.html">semiexp.net</a></div>
-			<div id="topmenu">
-				<div id="menu_entry"><a href="{{relative}}blog/index.html">Blog</a></div>
-				<div id="menu_entry"><a href="{{relative}}docs/index.html">Documents</a></div>
-				<div id="menu_entry"><a href="{{relative}}games/index.html">Games</a></div>
-				<div id="menu_lang">
-					[en/{%if page.ja_version != null %}<a href="{{ page.ja_version }}">ja</a>{%else%}ja{%endif%}]
-				</div>
-			</div>
+    <div id="header">
+        <div id="title"><a href="{{relative}}index.html">semiexp.net</a></div>
+        <div id="topmenu">
+            <div id="menu_entry"><a href="{{relative}}games/index.html">Apps</a></div>
+            <div id="menu_entry"><a href="{{relative}}blog/index.html">Blog</a></div>
+            <div id="menu_entry"><a href="{{relative}}docs/index.html">Documents</a></div>
         </div>
+        <div id="menu_lang">
+            [en/{%if page.ja_version != null %}<a href="{{ page.ja_version }}">ja</a>{%else%}ja{%endif%}]
+        </div>
+    </div>
 
+    <div id="wrapper">
         <div id="content">
             <h1> {{ page.title }} </h1>
 {{ page.date | date:'%Y-%m-%d'}} | 
