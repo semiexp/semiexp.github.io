@@ -137,6 +137,7 @@ td{
 #title a {
 	color : black;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 #title a:link {
