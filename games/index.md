@@ -10,11 +10,15 @@ Apps including logic puzzle solvers.
 
 A pencil puzzle editor based on [pzprjs](https://github.com/robx/pzprjs/), integrated with real-time solver feature.
 
-## [cspuz-solver2](cspuz-solver2/index.html)
+## [cspuz-solver2](../apps/cspuz-solver2/index.html)
 
 A fast logic puzzle solver supporting more than 80 puzzle types.
 
-## [Scrabble Solver](scrabble-solver/index.html)
+## [Sudoku Editor Plus](../apps/sudoku-editor/index.html)
+
+A Sudoku editor with the real-time solver feature, supporting various rules.
+
+## [Scrabble Solver](../apps/scrabble-solver/index.html)
 
 A Scrabble puzzle solver.
 

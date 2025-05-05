@@ -10,11 +10,15 @@ en_version: index.html
 
 [pzprjs](https://github.com/robx/pzprjs/) を基にしたパズルエディタで、リアルタイムに解答を表示する機能を備えています。
 
-## [cspuz-solver2](cspuz-solver2/index.html)
+## [cspuz-solver2](../apps/cspuz-solver2/index.html)
 
 多くの問題を高速に解くことができるペンシルパズルソルバーです。80 種類以上のパズルに対応しています。
 
-## [Scrabble Solver](scrabble-solver/index.html)
+## [Sudoku Editor Plus](../apps/sudoku-editor/index.html)
+
+リアルタイムに解答を表示する機能を備えた数独エディタです。様々な特殊ルールに対応しています。
+
+## [Scrabble Solver](../apps/scrabble-solver/index.html)
 
 Scrabble というパズルのソルバーです。
 
