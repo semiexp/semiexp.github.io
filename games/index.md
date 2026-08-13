@@ -18,6 +18,10 @@ A fast logic puzzle solver supporting more than 80 puzzle types.
 
 A Sudoku editor with the real-time solver feature, supporting various rules.
 
+## [Polymate](../apps/polymate/index.html)
+
+A solver for polyomino / polycube packing puzzles such as the Pentomino puzzle.
+
 ## [Scrabble Solver](../apps/scrabble-solver/index.html)
 
 A Scrabble puzzle solver.

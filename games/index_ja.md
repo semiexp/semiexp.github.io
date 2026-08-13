@@ -18,6 +18,10 @@ en_version: index.html
 
 リアルタイムに解答を表示する機能を備えた数独エディタです。様々な特殊ルールに対応しています。
 
+## [Polymate](../apps/polymate/index.html)
+
+「ペントミノ」などのポリオミノ / ポリキューブの箱詰めパズルを解くためのソルバーです。
+
 ## [Scrabble Solver](../apps/scrabble-solver/index.html)
 
 Scrabble というパズルのソルバーです。
